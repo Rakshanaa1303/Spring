@@ -4,21 +4,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-	<bean id="comp" class="Computer">
-		<property name="brandname" value="DELL Computer"></property>
-		<property name="cpu" ref="cpu1"></property>
-		<property name="key" ref="key"></property>
-	</bean>
-
-	<bean id="cpu1" class="CPU">
-		<property name="CPUName" value="AMD Processor"></property>
-	</bean>
-
-	<bean id="key" class="Keyboard">
-		<property name="keyBrand" value="DELL Keyboard"></property>
-		<property name="keyPrice" value="2000"></property>
+	<bean id="w1" class="com.deloitte.Welcome">
+		<property name="msg" value="Hello spring..!!"></property>
 	</bean>
 	
-	
-
 </beans>
